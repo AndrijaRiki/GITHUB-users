@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(42,42,42);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+}
+h1 {
+    color: rgb(228,83,112);
+    text-align: center;
+    margin: 50px 0;
+}
+#form {
+    text-align: center;
+}
+#searchedUser {
+    width: 40vw;
+    height: 8vh;
+    padding: 25px;
+    font-size: 18pt;
+    border-radius: 15px;
+    background-color: rgb(228,83,112);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+#searchedUser::placeholder {
+    color:rgb(255, 255, 255);
+}
+#userWrapper {
+    background-color: rgb(228,83,112);
+    display: flex;
+    align-items: center;
+    width: 55vw;
+    height: 40vh;
+    padding: 50px;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 150px;
+}
+#userWrapper #userImg{
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+    border-radius: 50%;
+}
+#data {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+#data #name {
+    font-size: 25pt;
+    font-weight: 600;
+    position: relative;
+}
+#data #bio {
+    font-size: 12pt;
+    position: relative;
+    top: -10px;
+}
+#dataWrapper span{
+    font-size: 15pt;
+    margin-right: 25px;
+}
